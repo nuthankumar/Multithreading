@@ -15,7 +15,7 @@ public class Job implements Runnable{
 			e.printStackTrace();
 		}
 		System.out.println("job  " + name +"  is Ended");
-
+/////
 	}
 
 }
