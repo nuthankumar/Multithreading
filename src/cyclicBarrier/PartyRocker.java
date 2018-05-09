@@ -1,4 +1,4 @@
-package mutualExSema;
+package cyclicBarrier;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;

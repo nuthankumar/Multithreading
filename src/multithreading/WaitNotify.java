@@ -15,7 +15,7 @@ class WaitNotify implements Runnable{
 		Thread t2=new Thread(new WaitNotify(){
 			public synchronized void consume(){
 				System.out.println(" consuming");
-				notify();
+				//notify();
 				System.out.println(" After consuming");
 			}
 		});
@@ -25,7 +25,7 @@ class WaitNotify implements Runnable{
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	

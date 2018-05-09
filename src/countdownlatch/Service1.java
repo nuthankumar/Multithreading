@@ -16,6 +16,9 @@ public class Service1 implements Runnable {
 		System.out.println("service running  " + name + "..is up");
 		try {
 			Thread.sleep(5000);
+			cdl.countDown();
+			cdl.countDown();
+			cdl.countDown();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
